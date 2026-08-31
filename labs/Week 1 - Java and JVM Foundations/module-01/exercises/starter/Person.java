@@ -5,16 +5,18 @@ public class Person {
 
     public Person(String name, int age) {
         // TODO: assign this.name / this.age
-        throw new UnsupportedOperationException("TODO");
+        this.name = name;
+        this.age = age;
     }
 
     public void display() {
         // TODO: print "<name> is <age> years old"
-        throw new UnsupportedOperationException("TODO");
+        System.out.println(name + " is " + age + " years old");
     }
 
     public static void main(String[] args) {
         // TODO: create Person("Aman", 21) and call display()
-        throw new UnsupportedOperationException("TODO");
+        Person p = new Person("Aman", 21);
+        p.display();
     }
 }
