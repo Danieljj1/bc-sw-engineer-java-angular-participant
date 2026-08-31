@@ -1,0 +1,2 @@
+Java source code (.java) is human-readable text that javac compiles into bytecode (.class), a platform-neutral instruction format. The bytecode does not target any operating system; it targets the JVM specification, so the same .class file runs unchanged on Windows, macOS, or Linux. Each platform's JVM loads, verifies, and executes that bytecode, translating it into native instructions for that specific OS and hardware, which is why no recompile is needed to run it elsewhere.
+
