@@ -3,6 +3,8 @@ public class WoraProbe {
         // TODO: store System.getProperty("os.name") in a String variable
         // TODO: print the OS name
         // TODO: print "Bytecode runs on: " + that OS name
-        throw new UnsupportedOperationException("TODO");
+        String osName = System.getProperty("os.name");
+        System.out.println(osName);
+        System.out.println("Bytecode runs on: " + osName);
     }
 }
